@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "ics": "^3.8.1"
+  },
+  "devDependencies": {
+    "standard": "^17.1.2"
+  },
+  "name": "ucsb-gold-to-google-calendar",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && node test/my-tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xziyu6/UCSB-GOLD-to-Google-Calendar.git"
+  },
+  "author": "Chazz Yu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xziyu6/UCSB-GOLD-to-Google-Calendar/issues"
+  },
+  "homepage": "https://github.com/xziyu6/UCSB-GOLD-to-Google-Calendar#readme"
+}

@@ -1,3 +1,21 @@
+function parseToICS(event) {
+    
+}
+
+const events = document.querySelectorAll(".single-event");
+for (let i = 0; i < array.length; i++) {
+    parseToICS(events[i]);
+}
+
+
+
+
+
+
+
+
+
+
 function renderReadingTime(article) {
     // If we weren't provided an article, we don't need to render anything.
     if (!article) {
