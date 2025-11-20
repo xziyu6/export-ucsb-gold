@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Export UCSB GOLD",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Export UCSB GOLD schedule as an ICS file or import into Google Calendar",
     "icons": {
         "16": "images/icon-16.png",
