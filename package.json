@@ -10,7 +10,7 @@
     "globals": "^16.5.0",
     "prettier": "^3.6.2"
   },
-  "name": "ucsb-gold-to-google-calendar",
+  "name": "export-ucsb-gold",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
