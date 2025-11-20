@@ -1,0 +1,30 @@
+# Node.js dependencies
+/node_modules
+
+# Build output
+/dist
+/build
+/out
+
+# Temporary files
+.tmp/
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Configuration files
+.env
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+.vscode/
+
+# Browser-specific files
+_metadata/
+
+# Editor-specific files
+*.idea/
+.project
+.settings/
