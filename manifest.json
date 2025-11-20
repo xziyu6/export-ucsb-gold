@@ -1,15 +1,28 @@
 {
-  "manifest_version": 3,
-  "name": "Export UCSB GOLD",
-  "version": "0.1.0",
-  "description": "Export UCSB GOLD schedule as an ICS file or import into Google Calendar",
-  "content_scripts": [
-    {
-      "js": ["scripts/popup.js"],
-      "matches": [
-        "https://my.sa.ucsb.edu/gold/WeeklyStudentSchedule.aspx",
-        "https://my.sa.ucsb.edu/gold/WeeklyCartSchedule.aspx"
-      ]
-    }
-  ]
+    "manifest_version": 3,
+    "name": "Export UCSB GOLD",
+    "version": "0.1.0",
+    "description": "Export UCSB GOLD schedule as an ICS file or import into Google Calendar",
+    "content_scripts": [
+        {
+            "js": [
+                "scripts/export.js"
+            ],
+            "matches": [
+                "https://my.sa.ucsb.edu/gold/WeeklyStudentSchedule.aspx",
+                "https://my.sa.ucsb.edu/gold/WeeklyCartSchedule.aspx"
+            ]
+        },
+        {
+            "js": [
+                "scripts/save_quarter_info.js"
+            ],
+            "matches": [
+                "https://my.sa.ucsb.edu/gold/RegistrationInfo.aspx"
+            ]
+        }
+    ],
+    "permissions": [
+        "storage"
+    ]
 }
