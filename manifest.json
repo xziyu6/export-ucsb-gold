@@ -3,6 +3,12 @@
     "name": "Export UCSB GOLD",
     "version": "0.1.0",
     "description": "Export UCSB GOLD schedule as an ICS file or import into Google Calendar",
+    "icons": {
+      "16": "images/icon-16.png",
+      "32": "images/icon-32.png",
+      "48": "images/icon-48.png",
+      "128": "images/icon-128.png"
+    },
     "content_scripts": [
         {
             "js": [
