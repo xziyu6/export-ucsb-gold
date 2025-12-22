@@ -57,4 +57,19 @@ function getQuarterInfo() {
   };
 }
 
-saveDates(getQuarterInfo());
+function save() {
+  saveDates(getQuarterInfo());
+}
+
+// Create a submit button and append it to the body
+const button = document.createElement('input');
+button.type = 'submit';
+button.value = 'Save Quarter Info';
+$("#userLabel").after(button);
+
+// Add event listener to trigger saveDates function when the button is clicked
+button.addEventListener('click', function(event) {
+  console.log("Save Quarter Info button added to the page.");
+  event.preventDefault(); // Prevent the default form submission
+  save();
+});

@@ -17,7 +17,8 @@
             ],
             "js": [
                 "scripts/jquery-3.7.1.min.js",
-                "scripts/export.js"
+                "scripts/export.js",
+                "scripts/ics.js"
             ]
         },
         {
